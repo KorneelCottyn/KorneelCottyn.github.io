@@ -1,0 +1,332 @@
+.btn {
+        background-color: #2DA0CB;
+        padding: 10px;
+        font-family: 'Khand', sans-serif;
+        font-size: 160%;
+        margin-top: 10px;
+        size: 100px;
+        text-decoration: none;
+        color: white;
+}
+
+p {
+        font-family: 'Khand', sans-serif;
+        font-size: 130%;
+}
+
+.text_over_image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        text-align: center;
+}
+
+.blok1 {
+        text-align: left;
+        padding: 30px;
+}
+
+.body {
+        padding: 1àpx;
+        font-family: 'Anton', sans-serif;
+        font-size: 300%;
+}
+
+.col-xs-3 {
+        display: none;
+}
+
+.hello {
+        vertical-align: center;
+        text-align: center;
+}
+
+.blok2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        height: 100%;
+}
+
+.test {
+        font-size: 300%;
+        color: rgb(45, 160, 203);
+}
+
+.middenblok {
+        width: 50%;
+        vertical-align: right;
+        text-align: left;
+        font-size: 75%;
+}
+
+.fotorechtsonderaan {
+        vertical-align: right;
+        padding: 2px;
+}
+
+.middenblok1 {
+        text-align: left;
+        font-size: 75%;
+        width: 50%;
+        vertical-align: left;
+}
+
+.parent {
+        min-height: 500px;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.image2 {
+        max-width: 180px;
+}
+
+h1 {
+        color: rgb(45, 160, 203);
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        padding: 20px;
+        font-size: 400%;
+}
+
+.menutekst {
+        margin-left: 10px;
+}
+
+.rowfooter {
+        padding: 10px;
+        font-size: 100%;
+        background-color: rgb(45, 160, 203);
+        font-family: 'Khand', sans-serif;
+        color: white;
+}
+
+.team {
+        text-align: left;
+}
+
+
+}
+.gridfooter {
+        margin-top: 40px;
+}
+.navbar {
+        background-color: rgb(45, 160, 203);
+        font-family: 'Anton', sans-serif;
+        font-size: 150%;
+}
+.navbar-brand {
+        font-size: 150%;
+}
+
+/* Style all font awesome icons */
+.fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+        opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+        background: #55ACEE;
+        color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+        background: #125688;
+        color: white;
+}
+.fa-youtube {
+        background: #bb0000;
+        color: white;
+}
+.quote {
+        margin: auto;
+        position: center;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        padding: 20px;
+        font-size: 60px;
+        ;
+        background: linear-gradient(135deg, #ECEDDC 30%, transparent 30%) -50px 0, linear-gradient(225deg, #ECEDDC 30%, transparent 30%) -50px 0, linear-gradient(315deg, #ECEDDC 30%, transparent 30%), linear-gradient(45deg, #ECEDDC 30%, transparent 30%);
+        background-size: 100px 100px;
+        background-color: rgb(45, 160, 203);
+        color: black;
+}
+.concepttekst1 {
+        margin-left: 10px;
+}
+.concepttekst2 {
+        margin-left: 10px;
+}
+.tussentitel {
+        font-size: 400%;
+}
+.form-group {
+        max-width: 50%;
+        margin-left: 20px;
+}
+.titelcontact {
+        margin-left: 20px;
+}
+.contactgegevens {
+        margin-left: 20px;
+}
+.paralax {
+        background-color: lightgray;
+        margin-bottom: 0;
+        border-radius: 0;
+        background-image: url('../images/wrapper.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        background-attachment: fixed;
+        height: 600px;
+}
+.imgsquare {
+        position: center;
+        align-items: center;
+        margin: auto;
+        size: 100px;
+}
+.icon {
+        margin: auto;
+        position: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+}
+.iconbar {
+        padding: 30px;
+}
+.icontitel {
+        font-style: bold;
+        font-family: 'Khand', sans-serif;
+        margin: auto;
+        text-align: center;
+}
+.blokicon {
+        padding: 30px;
+}
+.blokconcept {
+        padding: 30px;
+}
+.videobox {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+}
+.video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+.image {
+        display: block;
+        width: 100%;
+        height: auto;
+}
+.overlay {
+        background-image: url(../images/persoon1B.jpg) position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+}
+.container:hover .overlay {
+        opacity: 1;
+}
+.text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+}
+.teaminfo {
+        width: 375px;
+}
+.teamfoto {
+        max-height: 500px;
+        width: 375px;
+}
+.imageBox {
+        position: relative;
+        float: left;
+}
+.imageBox .hoverImg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+}
+.imageBox:hover .hoverImg {
+        display: block;
+}
+.image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+}
+.middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+}
+.container:hover .image {
+        opacity: 0.3;
+}
+.container:hover .middle {
+        opacity: 1;
+}
+.text {
+        text-align: center;
+        background-color: rgb(45, 160, 203);
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+}
+h2 {
+        font-family: 'Khand', sans-serif;
+}
